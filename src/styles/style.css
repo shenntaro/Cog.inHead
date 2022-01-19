@@ -22,6 +22,8 @@ li{
     align-items: center;
     justify-content: start;
     height: 6vh;
+    width: 200vh;
+    position: fixed;
 }
 
 .nav_logo{
@@ -69,6 +71,8 @@ li{
     justify-content: space-between;
     height: 94vh;
     background: #f2f2f2;
+    position: fixed;
+    margin-top: 6vh;
 }
 
 .menu_list{
@@ -80,7 +84,12 @@ li{
     margin: .5em;
     padding: .5em;
     border-radius: .3em;
-    font-size: 1.2em;
+    font-size: 1.5em;
+}
+
+.menu_item img{
+    width: 20px;
+    margin-right: .2em;
 }
 
 .menu_text_logo{
@@ -130,14 +139,16 @@ li{
     flex-direction: column-reverse;
     justify-content: start;
     align-items: center;
+    position: static;
+    margin: 4em;
 }
 
 .article-card{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 50%;
     background: #DAE9F2;
-    margin: 1em;
+    margin:  1em;
     padding: 1em;
     border-radius: 10px;
     box-shadow: 0 0 10px black;
@@ -167,4 +178,5 @@ li{
 .add{
     flex: 1;
     background: #f2f2f2;
+    position: fixed;
 }
