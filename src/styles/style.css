@@ -34,7 +34,8 @@ li{
 }
 
 .logo-text{
-    background: #fff;
+    background: #DAE9F2;
+    filter: brightness(90%);
     border-radius: 5px;
     box-shadow: 0px 0px 7px black;
 }
@@ -73,29 +74,34 @@ li{
     background: #f2f2f2;
     position: fixed;
     margin-top: 6vh;
+    width: 330px;
 }
 
 .menu_list{
-    margin: 1em;
+    margin: 2em 1em;
 }
 
 .menu_item{
-    background: #DAE9F2;
-    margin: .5em;
+    margin: 1em 1em 1em 2em;
     padding: .5em;
     border-radius: .3em;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    height: 1.2em;
+}
+
+.menu_item :active{
+    filter: brightness(105%);
+}
+
+.menu_item :hover{
+    background: #DAE9F2;
+    border-radius: 1em;
 }
 
 .menu_item img{
     width: 20px;
     margin-right: .2em;
-}
-
-.menu_text_logo{
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 7px black;
+    margin-left: 1em;
 }
 
 .menu_link{
@@ -136,7 +142,7 @@ li{
     flex: 4;
     background: #f2f2f2;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: start;
     align-items: center;
     position: static;
